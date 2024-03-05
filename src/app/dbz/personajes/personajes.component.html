@@ -1,0 +1,8 @@
+
+<h3>Personajes</h3>
+<hr>
+<ul>
+    @for (item of personajes; track $index) {
+        <li>{{item.nombre}} - {{item.poder | number}}</li>
+    }
+</ul>
